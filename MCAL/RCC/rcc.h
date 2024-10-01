@@ -135,4 +135,9 @@ ES_t RCC_enuAPB1PeriphClkCtrl(RCC_APB1Periph_t Copy_enuPerphNum, u8 Copy_u8EnOrD
 
 ES_t RCC_enuAPB2PeriphClkCtrl(RCC_APB2Periph_t Copy_enuPerphNum, u8 Copy_u8EnOrDi);
 
+ES_t RCC_enuGetSysClkType(RCC_SysClk_t *Copy_penuSysClk);
+
+ES_t RCC_enuGetSysClkValue(u32 *Copy_pu32SysClkValue);
+
+
 #endif
