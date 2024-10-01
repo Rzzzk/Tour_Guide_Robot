@@ -1,6 +1,7 @@
 {
     "ros.distro": "noetic",
     "files.associations": {
-        "GPIO.C": "cpp"
+        "GPIO.C": "cpp",
+        "bit_math.h": "c"
     }
 }
